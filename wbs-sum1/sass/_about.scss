@@ -1,0 +1,130 @@
+.about-intro{
+    height: 30vh;
+    width: 100vw;
+    background: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    .about-intro__header{
+        font-size: 5rem;
+        font-family: 'Cinzel';
+        color: white;
+    }
+}
+
+
+.about-introduction__container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+
+
+    .about-introduction__text{
+        height: 100%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .about-introduction__header{
+        font-family: 'Cinzel'; 
+        font-size: 4rem;  
+        text-align: center;
+    }
+
+
+    .about-introduction__paragraph{
+        font-family: 'Open Sans', sans-serif;
+        width: 50%; 
+        padding-top: 4rem;   
+        font-size: 1.5rem;  
+        text-align: center; 
+    }
+
+    .about-introduction__photo{
+        height: 100%;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-introduction-pic{
+        height: 80%;
+        width: 80%;
+        background: orange;
+    }
+}
+
+
+
+.values-section{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    position: relative;
+    justify-content: center;  
+    align-items: center;
+}
+
+
+.values-header{
+    position: absolute;
+    bottom: 0;
+}
+
+.values{
+    font-family: 'Cinzel', serif;
+    font-size: 4rem;    
+}
+
+
+.core-values{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+
+
+.core-values__conservation{
+    grid-column: 2/5;
+    grid-row: 2/8;
+    background: rgb(250, 250, 250);
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.values-semiotic{
+    height: 45%;
+    border-radius: 360%;
+    }
+    
+    
+    .core-value__header{
+        font-family: 'Cinzel', serif;
+        font-size: 3.5rem;
+     
+    
+    }
+    
+    .core-value__paragraph{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.5rem;
+        width: 75%;
+        text-align: center;
+    
+    }
+

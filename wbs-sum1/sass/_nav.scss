@@ -1,0 +1,67 @@
+.nav-section{
+    height: 10vh;
+    width: 100vw;
+    background: white;
+
+}
+
+.nav{
+   display: flex; 
+   align-items: center;
+   justify-content: space-between;
+
+}
+
+
+
+.logo{
+    height: 9vh;
+    margin-top: 0.5vh;
+    margin-left: 1vh;
+
+}
+
+.hamburger{
+    height: 3rem;
+    display: none;
+
+}
+
+.nav-list{
+    list-style: none;
+    align-items: center;
+    display: flex;
+
+}
+
+
+.nav-list__items{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    padding: 2rem;
+
+}
+
+
+
+
+.membership-btn{
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: white;
+    background: grey;
+    border: none;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.1rem;
+    margin-right: 2.5vh;
+    
+}
+
+
+.membership-btn:hover{
+    background: black;
+    transition: 0.2s all ease;
+}

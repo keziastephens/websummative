@@ -1,0 +1,18 @@
+.events-intro{
+    height: 30vh;
+    width: 100vw;
+    background: url(../img/waterfall-overlay.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -40rem;
+    
+    .events-intro__header{
+        font-size: 5rem;
+        font-family: 'Cinzel';
+        color: white;
+    }
+}
